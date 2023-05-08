@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+ /* Small */
+@media(min-width: 768px) {
+  .cruds {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .cruds {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .cruds {
+    width: 1170px;
+  }
+}
+
+.cruds {
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    margin: 10px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.head h1 {
+    padding: 5px 0;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    background: #111;
+    padding: 4px 5px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.price input {
+    width: 20%;
+}
+
+input:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+
+#total {
+    background: crimson;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+
+#total::before {
+    content: "Total:";
+
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 10%;
+    background: #470053;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: 0.5s;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ae2bc5;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch button {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    padding: 5px;
+    text-transform: uppercase;
+}
